@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>ahk-libs by george2</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">ahk-libs</h1>
+        <p class="header">All the (redistributable) AHK libs I can find...</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/george2/ahk-libs/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/george2/ahk-libs/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/george2/ahk-libs">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/george2">george2</a></p>
+
+
+      </header>
+      <section>
+        <p>Licenses are scattered around in there somewhere.</p>
+
+<p>At the moment, this repo contains well over 200 libraries, classes, and
+wrappers for AHK basic (vanilla), AHK_L, and AHK v2, implemented in over
+2100 ahk scripts.</p>
+
+<h2>
+<a name="readme" class="anchor" href="#readme"><span class="octicon octicon-link"></span></a>README!</h2>
+
+<p>Please note that, because this repo makes heavy use of git 'submodules',
+downloading a zip or tarball is not useful. Instead, please run</p>
+
+<pre><code>git clone git://github.com/george2/ahk-libs.git
+git submodule update --init --recursive
+</code></pre>
+
+<p>if you wish to have access to all the libs included in this repo.</p>
+
+<h2>
+<a name="included" class="anchor" href="#included"><span class="octicon octicon-link"></span></a>Included:</h2>
+
+<p>So far, the included libs are (in no particular order):</p>
+
+<ul>
+<li>The 'ahkstdlib' collection, in its entirety (see
+<a href="http://www.autohotkey.com/forum/viewtopic.php?t=54996">http://www.autohotkey.com/forum/viewtopic.php?t=54996</a>)</li>
+<li>Several of <a href="https://github.com/Uberi" class="user-mention">@Uberi</a>'s libs, including: 
+AHK-DB (sqlite3 database functions), 
+AssociativeArrays, 
+AveragingFunctions, 
+BarGrapher, 
+DeltaCompression, 
+ExprEval(), 
+Geolocation, 
+ListCompare, 
+ParallelPort, 
+QuotedStringReplace, 
+RangeOverlap, 
+Raydium-AHK (game engine wrapper), 
+SingleCharArray, 
+Speech (tts lib), 
+TriangleCollisionDetection</li>
+<li>Rseding91's "Fast ini library", basic and advanced versions</li>
+<li>Several of <a href="https://github.com/infogulch" class="user-mention">@infogulch</a>'s libs, including:
+WinHttpRequest, 
+Map, 
+AsyncHttp, 
+Zip, 
+LSON, 
+ahk2-bigint, 
+CaseSensitiveObject, 
+ahk-OpenGL</li>
+<li>
+<a href="https://github.com/nimdahk" class="user-mention">@nimdahk</a>'s AHKLink lib (<a href="https://github.com/nimdahk/AHKLink">https://github.com/nimdahk/AHKLink</a>)</li>
+<li>
+<a href="https://github.com/ChrisS85" class="user-mention">@ChrisS85</a>'s CGUI and WorkerThread libs (<a href="https://github.com/ChrisS85">https://github.com/ChrisS85</a>)</li>
+<li>
+<a href="https://github.com/camerb" class="user-mention">@camerb</a>'s AHK libs (<a href="https://github.com/camerb/AHKs">https://github.com/camerb/AHKs</a>)</li>
+<li>
+<a href="https://github.com/polyethene" class="user-mention">@polyethene</a>'s AutoHotkey-Scripts (<a href="https://github.com/polyethene/AutoHotkey-Scripts">https://github.com/polyethene/AutoHotkey-Scripts</a>)</li>
+<li>Several of <a href="https://github.com/maul-esel" class="user-mention">@maul-esel</a>'s libs (<a href="https://github.com/maul-esel/">https://github.com/maul-esel/</a>), including:
+COM-Classes, 
+FormsFramework, 
+ITaskbarList, 
+AeroThumbnail, 
+ImportTypeLib, 
+AHK-Util-Funcs (GUID, Mem, Obj, etc)</li>
+<li>
+<a href="https://github.com/hoppfrosch" class="user-mention">@hoppfrosch</a>'s cTable class</li>
+<li>
+<a href="https://github.com/HotKeyIt" class="user-mention">@HotKeyIt</a>'s _Struct libs for AHK v2 and _H</li>
+<li>
+<a href="https://github.com/RaptorX" class="user-mention">@RaptorX</a>'s scintilla-wrapper and cURL-Wrapper libs</li>
+</ul><p>The "Sources" file contains a list of the git repos from which
+submodules were created, and are included here. </p>
+
+<h2>
+<a name="note-to-developers-of-these-libs" class="anchor" href="#note-to-developers-of-these-libs"><span class="octicon octicon-link"></span></a>Note to developers of these libs</h2>
+
+<p>If your code is in this repo, and you do not want it to be, I apologize. 
+Please just let me know, and I will remove it.</p>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
